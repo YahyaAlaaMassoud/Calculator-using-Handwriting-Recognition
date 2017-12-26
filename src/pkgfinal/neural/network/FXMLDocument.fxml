@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="476.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgfinal.neural.network.FXMLDocumentController">
+    <children>
+        <Label fx:id="label2" alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="303.0" minHeight="16" minWidth="69" mouseTransparent="true" prefHeight="43.0" prefWidth="616.0" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Button fx:id="buttonCalculate" layoutX="448.0" layoutY="407.0" onAction="#handleButtonActionCalc" prefHeight="43.0" prefWidth="104.0" text="CALCULATE" />
+      <ImageView fx:id="myImageView" fitHeight="236.0" fitWidth="606.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="label1" alignment="CENTER" contentDisplay="CENTER" layoutX="141.0" layoutY="360.0" minHeight="16" minWidth="69" prefHeight="32.0" prefWidth="451.0" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="label21" layoutX="14.0" layoutY="264.0" minHeight="16" minWidth="69" text="The Expression Recognized  is:">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Label fx:id="label11" layoutX="14.0" layoutY="361.0" minHeight="16" minWidth="69" text="Answer is:">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button fx:id="buttonLoad" layoutX="89.0" layoutY="407.0" mnemonicParsing="false" onAction="#handleButtonActionLoad" prefHeight="43.0" prefWidth="104.0" text="LOAD IMAGE" />
+    </children>
+</AnchorPane>
