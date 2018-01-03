@@ -9,6 +9,5 @@ The extracted thumbnails from the first step of the algorithm are fed into a pre
 ### 3- Calculating the result
 After classifiying every segmented image, we convert this classification to its corresponding digit or operator and concatincate it to an expression string.
 Then we pass this string to a stack-based calculator to calculate its result.<br/>
-Then wrapping all of this into a JavaFX application with a simple GUI.<br/>
----
+Then wrapping all of this into a JavaFX application with a simple GUI.<br/><hr>
 A **documentation** will be posted for more details about the algorithm's steps, and how to use the ***NeuralNetwork, Training, and CrossValidation*** classes in other projects.
